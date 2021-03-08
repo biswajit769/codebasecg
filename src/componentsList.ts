@@ -99,9 +99,9 @@ export const menuItems: MenuItems = {
   Tag: {},
   Text: {},
   Textarea: {},
-  Menu: { soon: true },
+  /*Menu: { soon: true },
   Tab: { soon: true },
-  /*"Tabs",
+  "Tabs",
   "TabList",
   "TabPanel",
   "TabPanels"*/

@@ -25,7 +25,7 @@ const Menu = () => {
         p={5}
         m={0}
         as="menu"
-        backgroundColor="#2e3748"
+        backgroundColor="#1F1F1F"
         width="15rem"
       >
         <InputGroup size="sm" mb={4}>

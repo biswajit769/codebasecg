@@ -28,15 +28,22 @@ const DragItem: React.FC<ComponentItemProps> = ({
       _hover: {
         ml: -1,
         mr: 1,
-        bg: 'teal.100',
+        bg: '#0866C6',
         boxShadow: 'sm',
-        color: 'teal.800',
+        color: '#FFFFFF',
+        borderRadius: '0',
       },
     }
   }
 
   if (isChild) {
-    boxProps = { ...boxProps, ml: 4 }
+    boxProps = {
+      ...boxProps,
+      ml: 4,
+      borderBottom: '1px',
+      borderColor: 'rgba(107, 108, 109, 0.19)',
+      borderRadius: '0',
+    }
   }
 
   return (
@@ -64,7 +71,7 @@ const DragItem: React.FC<ComponentItemProps> = ({
           borderRadius={4}
           px={1}
         >
-          preset
+          root
         </Box>
       )}
       {soon && (

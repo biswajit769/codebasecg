@@ -76,7 +76,7 @@ const Header = () => {
     <DarkMode>
       <Flex
         justifyContent="space-between"
-        bg="#1a202c"
+        bg="#0866c6"
         as="header"
         height="3rem"
         px="1rem"
@@ -84,7 +84,7 @@ const Header = () => {
         <Flex
           width="14rem"
           height="100%"
-          backgroundColor="#1a202c"
+          backgroundColor="#0866c6"
           color="white"
           as="a"
           fontSize="xl"
@@ -92,8 +92,7 @@ const Header = () => {
           alignItems="center"
           aria-label="Chakra UI, Back to homepage"
         >
-          <Box fontSize="2xl" as={AiFillThunderbolt} mr={1} color="teal.100" />{' '}
-          <Box fontWeight="bold">open</Box>chakra
+          <Box fontWeight="bold">Code</Box>Gen
         </Flex>
 
         <Flex flexGrow={1} justifyContent="space-between" alignItems="center">
@@ -211,17 +210,7 @@ const Header = () => {
           align="center"
           direction="row"
           spacing="2"
-        >
-          <Link isExternal href="https://github.com/premieroctet/openchakra">
-            <Box as={DiGithubBadge} size={32} color="gray.200" />
-          </Link>
-          <Box lineHeight="shorter" color="white" fontSize="xs">
-            by{' '}
-            <Link isExternal href="https://premieroctet.com" color="teal.100">
-              Premier Octet
-            </Link>
-          </Box>
-        </Stack>
+        ></Stack>
       </Flex>
     </DarkMode>
   )

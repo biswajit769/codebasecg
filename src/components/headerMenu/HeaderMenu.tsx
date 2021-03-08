@@ -55,27 +55,14 @@ const HeaderMenu = () => {
       <Portal>
         <LightMode>
           <MenuList bg="white" zIndex={999}>
-            {process.env.NEXT_PUBLIC_IS_V1 && (
-              <MenuItemLink isExternal href="https://v0.openchakra.app">
-                <Box mr={2} as={GoArchive} />
-                Chakra v0 Editor
-              </MenuItemLink>
-            )}
             <ExportMenuItem />
             <ImportMenuItem />
 
             <MenuDivider />
 
-            <MenuItemLink
-              isExternal
-              href="https://chakra-ui.com/getting-started"
-            >
+            <MenuItemLink isExternal href="">
               <Box mr={2} as={GoRepo} />
-              Chakra UI Docs
-            </MenuItemLink>
-            <MenuItemLink href="https://github.com/premieroctet/openchakra/issues">
-              <Box mr={2} as={FaBomb} />
-              Report issue
+              Docs
             </MenuItemLink>
           </MenuList>
         </LightMode>

@@ -35,7 +35,7 @@ export const onboarding: IComponents = {
       size: '100px',
       fallbackSrc: 'https://via.placeholder.com/150',
       src:
-        'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+        'https://cdn.lynda.com/course/368915/368915-637490999963435634-16x9.jpg',
       width: '100%',
       height: 'auto',
       minHeight: '245px',
@@ -101,7 +101,7 @@ export const onboarding: IComponents = {
   'comp-1580479743': {
     id: 'comp-1580479743',
     props: {
-      children: 'Modern home in city center',
+      children: 'Sample card header',
       fontWeight: 'bold',
       fontSize: 'xl',
     },
@@ -112,7 +112,7 @@ export const onboarding: IComponents = {
   'comp-1580479791': {
     id: 'comp-1580479791',
     props: {
-      children: '$119/night',
+      children: 'Sample card sub header',
       fontSize: 'sm',
       mb: '3',
     },
@@ -429,7 +429,7 @@ export const onboarding: IComponents = {
   'comp-K6GPAPKNQACEE': {
     id: 'comp-K6GPAPKNQACEE',
     props: {
-      children: '⚡️Welcome to OpenChakra',
+      children: 'Welcome to CodeGen',
       fontSize: '3xl',
       fontWeight: 'bold',
     },
@@ -1005,7 +1005,7 @@ export const onboarding: IComponents = {
   'comp-K6H1NSQY3KC7W': {
     id: 'comp-K6H1NSQY3KC7W',
     props: {
-      children: 'The Visual Editor for Chakra UI',
+      children: 'Code Generator',
       color: 'gray.500',
     },
     children: [],

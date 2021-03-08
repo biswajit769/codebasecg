@@ -1,11 +1,12 @@
 import React from 'react'
 import { Input } from '@chakra-ui/react'
 import FormControl from '~components/inspector/controls/FormControl'
+import FileUploadControl from '~components/inspector/controls/FileUploadControl'
 import { useForm } from '~hooks/useForm'
 import usePropsSelector from '~hooks/usePropsSelector'
 
 const ImagePanel = () => {
-  const { setValueFromEvent } = useForm()
+  const { setValueFromEvent, handleImageChange } = useForm()
 
   const src = usePropsSelector('src')
   const fallbackSrc = usePropsSelector('fallbackSrc')
@@ -15,6 +16,16 @@ const ImagePanel = () => {
 
   return (
     <>
+      <FormControl label="File" htmlFor="photo">
+        <Input
+          placeholder="Image URL"
+          size="sm"
+          name="photo"
+          type="file"
+          onChange={handleImageChange}
+        />
+      </FormControl>
+
       <FormControl label="Source" htmlFor="src">
         <Input
           placeholder="Image URL"

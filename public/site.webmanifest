@@ -1,6 +1,6 @@
 {
-  "name": "OpenChakra",
-  "short_name": "React JSX visual editor for Chakra UI",
+  "name": "CodeGen",
+  "short_name": "Code Generator",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

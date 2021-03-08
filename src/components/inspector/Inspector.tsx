@@ -162,17 +162,7 @@ const Inspector = () => {
               icon={<IoMdRefresh />}
               onClick={() => dispatch.components.resetProps(component.id)}
             />
-            <ActionButton
-              label="Chakra UI Doc"
-              as={Link}
-              onClick={() => {
-                window.open(
-                  `https://chakra-ui.com/${docType.toLowerCase()}`,
-                  '_blank',
-                )
-              }}
-              icon={<GoRepo />}
-            />
+            <ActionButton label="Docs" as={Link} icon={<GoRepo />} />
             <ActionButton
               bg="red.500"
               label="Remove"
